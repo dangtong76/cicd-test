@@ -1,0 +1,10 @@
+name: first-exercise-workflow
+on: [push, pull_request]
+jobs:
+    check-python:
+        runs-on: ubuntu-latest
+        steps:
+            - name: 1.Check Python Version
+              run: python --version
+            - name: 2.Check pip Version
+              run: pip --version
