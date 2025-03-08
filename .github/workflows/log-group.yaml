@@ -1,4 +1,4 @@
-name: Workflow Commands
+name: Workflow log groups
 on: [push]
 
 jobs:
