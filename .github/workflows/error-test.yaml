@@ -6,10 +6,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setting an error message
-        run: echo "::erro "::warning::Missing Semicolon"
-      - name: Setting an r::Missing semicolon"
+        run: echo "::error::Missing semicolon"
       - name: Setting a debug message with params  
         run: echo "::debug::Missing Semicolon"
       - name: Setting an warning message with params
-        run: echonotice message with params
+        run: echo "::warning::Missing Semicolon"
+      - name: Setting an notice message with params
         run: echo "::notice::Missing Semicolon"
